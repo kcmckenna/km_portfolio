@@ -1,12 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
 
-/*
-	Epilogue by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -637,8 +631,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #EF6480;
-			box-shadow: 0 0 0 1px #EF6480;
+			border-color: #3C91CA;
+			box-shadow: 0 0 0 1px #3C91CA;
 		}
 
 	.select-wrapper:before {
@@ -658,15 +652,15 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #EF6480;
-		border-color: #EF6480;
+		background-color: #3C91CA;
+		border-color: #3C91CA;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #EF6480;
-		box-shadow: 0 0 0 1px #EF6480;
+		border-color: #3C91CA;
+		box-shadow: 0 0 0 1px #3C91CA;
 	}
 
 	::-webkit-input-placeholder {
@@ -962,6 +956,11 @@
 		border-top-color: #666666;
 	}
 
+	.about-icon {
+		height: 60px;
+		width: 60px;
+	}
+
 /* Table */
 
 	.table-wrapper {
@@ -1091,7 +1090,7 @@
 			}
 
 				.item header a:hover {
-					color: #EF6480 !important;
+					color: #3C91CA !important;
 				}
 
 			.item header strong, .item header b {
@@ -1525,6 +1524,9 @@
 				}
 
 		}
+	#contact {
+		font-size: 30px;
+	}
 
 /* Footer */
 
